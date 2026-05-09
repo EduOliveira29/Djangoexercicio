@@ -1,0 +1,17 @@
+comandos para usar a applicação
+
+* inslação da venv
+python -m venv venv
+
+* instalando pacotes
+pip install -r requirements.txt
+
+* criando ambiente virtual
+venv\Scripts\activate
+
+* testando as configs
+python manage.py makemigrations
+python manage.py migrate
+
+* levando o servidor
+python manage.py createsuperuser 
