@@ -1,5 +1,4 @@
 from django.views import generic
-
 from blog.modelos import Post
 
 class PostView(generic.ListView):
